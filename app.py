@@ -1,9 +1,38 @@
 import streamlit as st 
-from PIL import Image
-import classify #remain to build this
+from PIL import Image,ImageOps
 import numpy as np
+from keras.models import load_model
+from keras.preprocessing.image import img_to_array, load_img
+import tensorflow as tf
 
-sign_names = {
+
+@st.cache(allow_output_mutation=True)
+def get_model():
+        model = load_model('TSR.hdf5')
+        print('Model Loaded')
+        return model 
+model =get_model()
+st.write("Traffic Sign Classifier")
+file = st.file_uploader("Please upload an image of Traffic Sign", type=["png", "jpg"])
+
+def import_and_predict(image_data, model):
+    
+        
+        image= ImageOps.fit(image_data,(30,30),Image.ANTIALIAS)
+        img = np.asarray(image)
+        img_reshape=img[np.newaxis,...]
+        prediction = model.predict(img_reshape)
+        return prediction
+
+if file is None:
+    st.text("please upload a file")
+else:
+    image = Image.open(file)
+    st.image(image, use_column_width=True)
+    if st.button('predict'):
+        st.write("Result...")
+        predictions = import_and_predict(image, model)
+        sign_names = {
         0: 'Speed limit (20km/h)',
         1: 'Speed limit (30km/h)',
         2: 'Speed limit (50km/h)',
@@ -40,22 +69,7 @@ sign_names = {
         33: 'Turn right ahead',
         34: 'Turn left ahead',
         35: 'Ahead only',
-        }
-
-st.title("Traffic Sign Recognition")
-
-uploaded_file = st.file_uploader("Choose an image...", type="jpg")
-if uploaded_file is not None:
-
-        image = Image.open(uploaded_file)
-        st.image(image, caption='Uploaded Image', use_column_width=True)
-
-        st.write("")
-
-        if st.button('predict'):
-                st.write("Result...")
-                label = classify.predict(uploaded_file)
-                label = label.item()
-
-                result = sign_names.get(label)
-                st.markdown(result)
+            }
+        string = "This sign is of :"+sign_names[np.argmax(predictions)]
+        st.success(string)
+    
