@@ -51,7 +51,7 @@ Dataset can be found here : https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-ge
 
 ### Model
 Contains the saved keras model named
-- ###### Traffic_sign_classifier_CNN.hdf5
+- ###### TSR.hdf5
 
 ## Files for our Streamlit App
 
