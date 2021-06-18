@@ -3,11 +3,6 @@
 
 # Traffic_Sign_Classifier-with-Streamlit
 
-## App:
-- Link: https://traffic-sign-classification.herokuapp.com/
-
-
-
 ## App Output
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Front%20Page.png)
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Image%20upload.png)
@@ -49,13 +44,11 @@ Dataset can be found here : https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-ge
 ### Streamlit App Output
 - Contains the App's final output 
 
-### Class Names and Labels
-- Contains the signnames.csv file
-
 ### Result Excel
 - Conatins a exccel sheet having the results of our test results on random images from the internet
 - Also contains the accuracy of our model on unseen data
 - Accuracy on unseen data : 79.06%
+
 ### Model
 Contains the saved keras model named
 - ###### Traffic_sign_classifier_CNN.hdf5
@@ -68,9 +61,6 @@ Contains the saved keras model named
 - Imports the predict() function fetches the result and displays it.
 - get_model(): Loads the saved model into cache using streamlit's "@st.cache" feature.
 - predict(): Takes an image as input from the function parameter, preprocesses it and feeds it to the model for results.
-
-#### Procfile
-A Procfile is a file which describes how to run your application.
 
 
 ## Run this app on your system.
