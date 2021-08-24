@@ -1,12 +1,14 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) 
 
-# Traffic_Sign_Classifier-with-Streamlit
+# Traffic Sign Classifier using Streamlit
 
 ## App Output
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Front%20Page.png)
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Image%20upload.png)
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Result.png)
+
+## Model Output
 
 
 ## Project overview
@@ -16,7 +18,7 @@ i.e., to develop a deep learning model that reads traffic signs and classifies t
 - The traffic sign classifier uses a German traffic dataset. The German traffic dataset consists of
 34,799 32*32 pixels colored images that is used for the training dataset, 12,630 images are used
 for the testing dataset and 4410 images are used in the validation dataset where each images is a
-photo of a traffic sign belonging to one of the 43 classes i.e., traffic sign types.
+photo of a traffic sign belonging to one of the 36 classes i.e., traffic sign types.
 
 
 ## Dataset:
@@ -24,7 +26,7 @@ Dataset can be found here : https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-ge
 
 
 ## Folders Description
-### Google Colab Notebook
+### Model.py File
 #### Contains the whole process of building the CNN Model 
 - Load the Pickled dataset
 - Use Seaborn to visualise the data.
