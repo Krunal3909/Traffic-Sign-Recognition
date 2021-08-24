@@ -9,9 +9,13 @@
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Result.png)
 
 ## Model Output
+#### Summary of CNN Model
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/model_summary.png)
+#### Accuracy Graph
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/accuracy_chart.png)
+#### Loss Graph
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/loss_chart.png)
+#### Final prediction
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/final_prediction.png)
 
 
