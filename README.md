@@ -57,8 +57,11 @@ Contains the saved keras model named
 - predict(): Takes an image as input from the function parameter, preprocesses it and feeds it to the model for results.
 
 ## App Output
+#### First Page
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Front%20Page.png)
+#### Image upload page
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Image%20upload.png)
+#### Result Page
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Result.png)
 
 ## Model Output
