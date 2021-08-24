@@ -9,6 +9,10 @@
 ![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Result.png)
 
 ## Model Output
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/model_summary.png)
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/accuracy_chart.png)
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/loss_chart.png)
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/final_prediction.png)
 
 
 ## Project overview
