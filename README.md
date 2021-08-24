@@ -3,22 +3,6 @@
 
 # Traffic Sign Classifier using Streamlit
 
-## App Output
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Front%20Page.png)
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Image%20upload.png)
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Result.png)
-
-## Model Output
-#### Summary of CNN Model
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/model_summary.png)
-#### Accuracy Graph
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/accuracy_chart.png)
-#### Loss Graph
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/loss_chart.png)
-#### Final prediction
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/final_prediction.png)
-
-
 ## Project overview
 - The aim of this project is to focus on the first fundamental features of the decision making ability of an autonomous vehicle, 
 i.e., to develop a deep learning model that reads traffic signs and classifies them correctly using Convolutional Neural Networks(CNNs).
@@ -71,6 +55,21 @@ Contains the saved keras model named
 - Imports the predict() function fetches the result and displays it.
 - get_model(): Loads the saved model into cache using streamlit's "@st.cache" feature.
 - predict(): Takes an image as input from the function parameter, preprocesses it and feeds it to the model for results.
+
+## App Output
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Front%20Page.png)
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Image%20upload.png)
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Result.png)
+
+## Model Output
+#### Summary of CNN Model
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/model_summary.png)
+#### Accuracy Graph
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/accuracy_chart.png)
+#### Loss Graph
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/loss_chart.png)
+#### Final prediction
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/final_prediction.png)
 
 
 ## Run this app on your system.
