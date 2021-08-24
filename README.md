@@ -87,7 +87,7 @@ Contains the saved keras model named
 - Install all the dependencies
 - Clone this repository
 - You need the Streamlit App folder to run this application.
-- In your Command line/Terminal go to the directory where you have upload.py file then type 
+- In your Command line/Terminal go to the directory where you have upload (.py) file then type 
 #### streamlit run app.py
 
 
