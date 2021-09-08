@@ -66,13 +66,13 @@ Contains the saved keras model named
 
 ## Model Output
 #### Summary of CNN Model
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/model_summary.png)
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Model%20Results%20Images/model_summary.png)
 #### Accuracy Graph
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/accuracy_chart.png)
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Model%20Results%20Images/accuracy_chart.png)
 #### Loss Graph
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/loss_chart.png)
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Model%20Results%20Images/loss_chart.png)
 #### Final prediction
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/final_prediction.png)
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Model%20Results%20Images/final_prediction.png)
 
 
 ## Run this app on your system.
