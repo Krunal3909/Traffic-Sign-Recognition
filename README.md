@@ -1,7 +1,7 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) 
 
-# Traffic Sign Classifier using Streamlit
+# Traffic Sign Recognizer using CNN and Streamlit
 
 ## Project overview
 - The aim of this project is to focus on the first fundamental features of the decision making ability of an autonomous vehicle, 
