@@ -58,11 +58,11 @@ Contains the saved keras model named
 
 ## App Output
 #### First Page
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Front%20Page.png)
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/WebApp%20Images/Front%20Page.png)
 #### Image upload page
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Image%20upload.png)
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/WebApp%20Images/Image%20upload.png)
 #### Result Page
-![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/Result.png)
+![alt text](https://github.com/Krunal3909/Traffic-Sign-Recognition/blob/main/WebApp%20Images/Result.png)
 
 ## Model Output
 #### Summary of CNN Model
